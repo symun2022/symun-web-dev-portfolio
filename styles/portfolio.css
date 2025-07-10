@@ -8,6 +8,12 @@
   font-variation-settings:
     "wdth" 100;
 }
+.header{
+    background-image: url("../images/developer.png"),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+
+}
 
 
 /* nav styles   */
@@ -55,7 +61,8 @@ nav ul li a{
 }
 .banner{
     display: flex;
-    margin: 0 30px 0 201px;
+    justify-content: space-between;
+    margin: 0 34px 0 200px;
 }
 .banner-container{
     width: 585px;
@@ -69,6 +76,7 @@ nav ul li a{
 .greeding{
     font-weight: 600px;
     font-size: 45px;
+    
 }
 .profil-title{
     font-weight: bold;
